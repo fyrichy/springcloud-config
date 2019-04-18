@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+     -dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: user-service-config-dev
+    
+---
+spring:
+  profiles: test
+  application: user-service-config-test
